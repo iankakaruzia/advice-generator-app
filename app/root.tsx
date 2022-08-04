@@ -1,4 +1,4 @@
-import styles from "./styles/tailwindcss.css"
+import styles from './styles/tailwindcss.css'
 import type { MetaFunction, LinksFunction } from '@remix-run/node'
 import {
   Links,
@@ -16,21 +16,32 @@ export const meta: MetaFunction = () => ({
 })
 
 export const links: LinksFunction = () => {
-  return [{ rel: "stylesheet", href: styles }]
+  return [{ rel: 'stylesheet', href: styles }]
 }
 
 export default function App() {
   return (
-    <html lang='en' className="h-full">
+    <html lang='en' className='h-full'>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='' />
-        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet" />
-        <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/png" />
+        <link rel='preconnect' href='https://fonts.googleapis.com' />
+        <link
+          rel='preconnect'
+          href='https://fonts.gstatic.com'
+          crossOrigin=''
+        />
+        <link
+          href='https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap'
+          rel='stylesheet'
+        />
+        <link
+          rel='shortcut icon'
+          href='/images/favicon-32x32.png'
+          type='image/png'
+        />
         <Meta />
         <Links />
       </head>
-      <body className="h-full">
+      <body className='h-full'>
         <Outlet />
         <ScrollRestoration />
         <Scripts />
