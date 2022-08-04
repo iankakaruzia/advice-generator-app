@@ -11,7 +11,7 @@ import {
 
 export const meta: MetaFunction = () => ({
   charset: 'utf-8',
-  title: 'New Remix App',
+  title: 'Advice Generator',
   viewport: 'width=device-width,initial-scale=1'
 })
 
@@ -23,6 +23,10 @@ export default function App() {
   return (
     <html lang='en' className="h-full">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='' />
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet" />
+        <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/png" />
         <Meta />
         <Links />
       </head>
