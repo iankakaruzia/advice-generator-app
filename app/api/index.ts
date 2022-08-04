@@ -1,9 +1,16 @@
-import fetch from 'cross-fetch'
+import axios from 'axios'
+
+const api = axios.create({
+  baseURL: 'https://api.adviceslip.com'
+})
 
 class API {
   static async getAdvice() {
-    const response = await fetch('https://api.adviceslip.com/advice')
-    const data = await response.json()
+    const { data } = await api.get('advice', {
+      params: {
+        time: Date.now() // Prevent browser caching
+      }
+    })
     return data.slip ?? {}
   }
 }

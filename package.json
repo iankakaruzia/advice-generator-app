@@ -20,7 +20,8 @@
     "/node_modules",
     "/build",
     "/public/build",
-    "/api"
+    "/api",
+    "/app/styles/tailwindcss.css"
   ],
   "lint-staged": {
     "app/**/*.{ts,tsx}": [
@@ -33,7 +34,7 @@
     "@remix-run/react": "^1.6.7",
     "@remix-run/vercel": "^1.6.7",
     "@vercel/node": "^2.4.4",
-    "cross-fetch": "^3.1.5",
+    "axios": "^0.27.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

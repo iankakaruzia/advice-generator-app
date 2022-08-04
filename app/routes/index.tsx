@@ -47,7 +47,7 @@ export default function Index() {
 
   return (
     <div className='flex h-full w-full flex-col items-center justify-center bg-gray-700 px-4'>
-      <main className='relative flex max-w-[540px] flex-col rounded-xl bg-gray-500 px-6 pb-8 pt-10'>
+      <main className='relative flex flex-col rounded-xl bg-gray-500 px-6 pb-8 pt-10 lg:w-[540px]'>
         <span className='text-center text-[11px] leading-[15px] tracking-[3.45714px] text-green-500'>
           ADVICE #{slip.id}
         </span>
