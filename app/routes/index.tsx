@@ -61,6 +61,7 @@ export default function Index() {
           className='absolute left-1/2 bottom-0 flex h-16 w-16 -translate-x-1/2 translate-y-1/2 items-center justify-center rounded-full bg-green-500 transition-all hover:shadow-lg disabled:bg-opacity-80'
           disabled={isLoading}
           onClick={getNewAdvice}
+          aria-label='Get new advice'
         >
           <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'>
             <path

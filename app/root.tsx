@@ -12,7 +12,8 @@ import {
 export const meta: MetaFunction = () => ({
   charset: 'utf-8',
   title: 'Advice Generator',
-  viewport: 'width=device-width,initial-scale=1'
+  viewport: 'width=device-width,initial-scale=1',
+  description: 'A simple advice generator'
 })
 
 export const links: LinksFunction = () => {
