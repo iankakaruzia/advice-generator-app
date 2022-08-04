@@ -3,11 +3,15 @@ module.exports = {
   content: ['./app/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      backgroundImage: {
+        'divider-mobile': 'url(/images/pattern-divider-mobile.svg)',
+        'divider-desktop': 'url(/images/pattern-divider-desktop.svg)'
+      },
       fontFamily: {
         sans: ['Manrope', 'sans-serif']
       },
       boxShadow: {
-        lg: 'box-shadow: 0px 0px 40px #53FFAA',
+        lg: '0px 0px 40px #53FFAA',
         xl: '30px 50px 80px rgba(0, 0, 0, 0.100202)'
       },
       borderRadius: {
