@@ -1,34 +1,56 @@
-# Welcome to Remix!
+# Frontend Mentor - Advice generator app solution
 
-- [Remix Docs](https://remix.run/docs)
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Deployment
+## Table of contents
 
-After having run the `create-remix` command and selected "Vercel" as a deployment target, you only need to [import your Git repository](https://vercel.com/new) into Vercel, and it will be deployed.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-If you'd like to avoid using a Git repository, you can also deploy the directory by running [Vercel CLI](https://vercel.com/cli):
+## Overview
 
-```sh
-npm i -g vercel
-vercel
-```
+### The challenge
 
-It is generally recommended to use a Git repository, because future commits will then automatically be deployed by Vercel, through its [Git Integration](https://vercel.com/docs/concepts/git).
+Users should be able to:
 
-## Development
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Generate a new piece of advice by clicking the dice icon
 
-To run your Remix app locally, make sure your project's local dependencies are installed:
+### Screenshot
 
-```sh
-npm install
-```
+![](./docs/screenshot.png)
 
-Afterwards, start the Remix development server like so:
+### Links
 
-```sh
-npm run dev
-```
+- [Solution URL](https://github.com/iankakaruzia/advice-generator-app)
+- [Live Site URL](https://advice-generator-app-wine-kappa.vercel.app/)
 
-Open up [http://localhost:3000](http://localhost:3000) and you should be ready to go!
+## My process
 
-If you're used to using the `vercel dev` command provided by [Vercel CLI](https://vercel.com/cli) instead, you can also use that, but it's not needed.
+### Built with
+
+- TailwindCSS
+- Flexbox
+- Mobile-first workflow
+- [Remix](https://remix.run/) - Framework
+
+### What I learned
+
+This was my first time working with Remix, and I thoroughly enjoyed. I was able to use the knowledge that I have from React/Next.JS in it.
+
+### Useful resources
+
+I used these two repositories to guide me on the Remix path.
+- [NBA Remix](https://github.com/willianjusten/nba-remix) from Willian Justen
+- [Indie Stack](https://github.com/remix-run/indie-stack) from Remix
+## Author
+
+- Frontend Mentor - [@iankakaruzia](https://www.frontendmentor.io/profile/iankakaruzia)
