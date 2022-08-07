@@ -49,8 +49,10 @@ This was my first time working with Remix, and I thoroughly enjoyed. I was able 
 ### Useful resources
 
 I used these two repositories to guide me on the Remix path.
+
 - [NBA Remix](https://github.com/willianjusten/nba-remix) from Willian Justen
 - [Indie Stack](https://github.com/remix-run/indie-stack) from Remix
+
 ## Author
 
 - Frontend Mentor - [@iankakaruzia](https://www.frontendmentor.io/profile/iankakaruzia)
